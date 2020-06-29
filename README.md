@@ -38,8 +38,8 @@ The project makes us of a pre-trained, sklearn model that has been trained to pr
 > - Deploy Flask app to Docker container
 > - Run `run_docker.sh` this creates a docker image `flasksklearn` and deploys the app into it.
 > - The app is started from the docker conatiner with the command `docker run -p 8000:80 flasksklearn`
-![docker run](screenshots/running_docker.png)
-> - results from postman ![postman](screenshots/postman_docker.png)
+![docker run](flask-sklearn/screenshots/running_docker.png)
+> - results from postman ![postman](flask-sklearn/screenshots/postman_docker.png)
 > -  now we upload app to a docker hub repository.
 > - create a repository on docker hub called `flasksklearn`
 > - run `upload_docker.sh`
